@@ -1,0 +1,6 @@
+gravity is a tiny bit weiird. the player doesnt really stop as smoothly going left as it is going right
+(possible error or discrepency with the motion values)
+
+double jump has been fixed 😀 but wall jump is clanky and very in-intuitive. needs either renovations or fixing
+(the player is forced to push against the wall at a very particular position and speed. and also pushing against the
+wall causes the player wall jump to lose momentum and worse reaction time

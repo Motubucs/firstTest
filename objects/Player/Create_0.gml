@@ -5,7 +5,7 @@ dbljmp = 0;
 last_key_time = 0;
 last_key_direction = 0;
 walljmp = 4;
-
+roll = 3;
 
 sprt[RIGHT] = spriteright;
 sprt[RIGHTS] = spriterightslow;

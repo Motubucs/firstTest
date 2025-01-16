@@ -5,8 +5,11 @@ nokeyup = keyboard_check_released(vk_up);
 keydown = keyboard_check(vk_down);
 reset = keyboard_check(vk_space);
 dash = keyboard_check_pressed(vk_lshift);
+nexrum = keyboard_check(vk_lalt);
 
-
+if nexrum {
+	room_goto_next();
+}
 
 
 if true yspd += .3;
@@ -74,7 +77,7 @@ if nokeyup{
 }
 
 if keyup and dbljmp == 1{
-	yspd -= 4.5;
+	yspd = -4.5;
 	
 }
 
@@ -134,6 +137,7 @@ if place_meeting(x + xspd, y, obj_wall) {
 
 // Vertical collision
 if place_meeting(x, y + yspd, obj_wall) {
+	
     while (!place_meeting(x, y + sign(yspd), obj_wall)) {
         y += sign(yspd);
     }
@@ -144,6 +148,14 @@ if place_meeting(x, y + yspd, obj_wall) {
 	if keyup{
         dbljmp = 1;
     }
+	
+	if keyright and keydown and roll > 0{
+		roll = 2;
+		xspd += 2;
+		if xspd >= 0 and roll < 3 and roll >= 0{
+			xspd -= 0.30
+		}
+	}
 	
     yspd = 0;
 }
