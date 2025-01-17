@@ -11,6 +11,11 @@ if nexrum {
 	room_goto_next();
 }
 
+if keyboard_check(vk_escape) {
+	room_goto(TitleScreen);
+}
+
+
 
 if true yspd += .3;
 

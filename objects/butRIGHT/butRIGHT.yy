@@ -9,8 +9,8 @@
   "name":"butRIGHT",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"buttonsMinigame",
+    "path":"folders/Objects/buttonsMinigame.yy",
   },
   "parentObjectId":null,
   "persistent":false,

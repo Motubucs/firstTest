@@ -9,8 +9,8 @@
   "name":"obj_buttonToMinigame",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"TitleScreenObjects",
+    "path":"folders/Objects/TitleScreenObjects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

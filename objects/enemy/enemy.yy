@@ -9,8 +9,8 @@
   "name":"enemy",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"PlatformerLevel",
+    "path":"folders/Objects/PlatformerLevel.yy",
   },
   "parentObjectId":{
     "name":"obj_wall",
