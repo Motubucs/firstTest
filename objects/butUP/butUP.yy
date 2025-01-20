@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_upBut",
-    "path":"sprites/spr_upBut/spr_upBut.yy",
+    "name":"spr_upButt",
+    "path":"sprites/spr_upButt/spr_upButt.yy",
   },
   "spriteMaskId":null,
   "visible":true,

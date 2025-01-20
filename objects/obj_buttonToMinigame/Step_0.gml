@@ -42,3 +42,8 @@ if image_index == 14{
 
 	room_goto(Buttonss);
 }
+
+if image_index == 11{
+instance_activate_object(introButtonsScreen);
+
+}

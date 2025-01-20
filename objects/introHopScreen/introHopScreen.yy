@@ -9,8 +9,8 @@
   "name":"introHopScreen",
   "overriddenProperties":[],
   "parent":{
-    "name":"PlatformerLevel",
-    "path":"folders/Objects/PlatformerLevel.yy",
+    "name":"TitleScreenObjects",
+    "path":"folders/Objects/TitleScreenObjects.yy",
   },
   "parentObjectId":null,
   "persistent":true,

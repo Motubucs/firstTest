@@ -37,7 +37,7 @@ if !position_meeting(mouse_x, mouse_y, obj_buttonToPlaform) and click < 3 {
 
 if image_index == 11{
 instance_activate_object(introHopScreen);
-introHopScreen.image_index = 0;
+
 }
 
 

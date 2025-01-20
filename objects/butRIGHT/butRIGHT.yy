@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_rightBut",
-    "path":"sprites/spr_rightBut/spr_rightBut.yy",
+    "name":"spr_rightButt",
+    "path":"sprites/spr_rightButt/spr_rightButt.yy",
   },
   "spriteMaskId":null,
   "visible":true,
