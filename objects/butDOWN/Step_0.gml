@@ -6,15 +6,28 @@ released = keyboard_check_released(vk_down);
 
 
 if clicked {
-
+image_speed = 1;
 image_index = 1;
+press = 1;
+}else{
+	press = 0;
+}
+
+if released and press != 1{
+
+image_index = 4;
+image_speed = 1;
 
 }
 
-if released{
+if image_index == 6 or image_index == 0{
+	image_index = 0;
+	image_speed = 0;
+}
 
-image_index = 0;
-
+if image_index == 2{
+	image_index = 2;
+	image_speed = 0;
 }
 
 if keyboard_check(vk_escape) {
