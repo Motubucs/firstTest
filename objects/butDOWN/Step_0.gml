@@ -9,6 +9,8 @@ if clicked {
 image_speed = 1;
 image_index = 1;
 press = 1;
+downGLOW.image_index = 1;
+
 }else{
 	press = 0;
 }
@@ -17,6 +19,7 @@ if released and press != 1{
 
 image_index = 4;
 image_speed = 1;
+downGLOW.image_index = 7;
 
 }
 
