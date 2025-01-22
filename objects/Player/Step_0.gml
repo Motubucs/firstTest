@@ -14,6 +14,7 @@ if nexrum {
 if keyboard_check(vk_escape) {
 	room_goto(TitleScreen);
 	audio_pause_all();
+	audio_play_sound(TitleTheme, 4, true, 0.1, 0.1);
 }
 
 

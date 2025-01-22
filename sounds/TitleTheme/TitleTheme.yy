@@ -7,7 +7,7 @@
   },
   "bitDepth":1,
   "bitRate":8,
-  "compression":3,
+  "compression":1,
   "conversionMode":0,
   "duration":32.0,
   "name":"TitleTheme",
