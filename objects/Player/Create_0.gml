@@ -20,6 +20,8 @@ sprt[DBLJMPL] = dbljmpL;
 sprt[DBLJMPR] = dbljmpR;
 sprt[DASHL] = dashL;
 sprt[DASHR] = dashR;
+sprt[SLIPL] = wallSlipL;
+sprt[SLIPR] = wallSlipR;
 
 
 face = IDLEF;

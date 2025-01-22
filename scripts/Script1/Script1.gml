@@ -12,4 +12,6 @@
 #macro DBLJMPL 321
 #macro DASHL 35
 #macro DASHR 15
+#macro SLIPL 335
+#macro SLIPR 135
 

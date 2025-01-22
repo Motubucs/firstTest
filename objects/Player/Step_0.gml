@@ -13,6 +13,7 @@ if nexrum {
 
 if keyboard_check(vk_escape) {
 	room_goto(TitleScreen);
+	audio_pause_all();
 }
 
 
@@ -124,9 +125,16 @@ if place_meeting(x + xspd, y, obj_wall) {
 
     xspd = 0;
 	if keyleft and yspd > 1{
-		yspd -= .15;}
+		
+		yspd -= .15;
+		
+		}
+		
 	if keyright and yspd > 1{
-		yspd -= .15;}
+		
+		yspd -= .15;
+	
+		}
 	
 	if keyup and xspd == 0 and dbljmp <= 0 and walljmp > 0{
 		yspd = -5;
@@ -246,6 +254,18 @@ if xspd > 2{
 }
 if xspd < -2{
 	face = DASHL
+}
+
+if keyleft{
+		if face = IDLEF{
+		face = SLIPL;
+		}
+		
+}
+
+if keyright{
+		if face = IDLEF{
+		face = SLIPR;}
 }
 
 mask_index = idlefront;

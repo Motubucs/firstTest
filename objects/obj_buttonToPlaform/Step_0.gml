@@ -12,6 +12,7 @@ if position_meeting(mouse_x, mouse_y, obj_buttonToPlaform) and click < 4{
 		
 	if mouse_check_button_released(mb_left) and click == 1{
 			image_index = 3;
+			audio_pause_sound(TitleTheme);
 			click = 4;
 		}
 	
